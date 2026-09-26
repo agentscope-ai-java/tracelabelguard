@@ -1,0 +1,6 @@
+/tracelabelguard
+/cmd/tracelabelguard/tracelabelguard
+*.test
+*.out
+coverage.txt
+coverage.html
