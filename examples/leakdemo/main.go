@@ -21,7 +21,7 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/__GH_OWNER__/tracelabelguard"
+	"github.com/agentscope-ai-java/tracelabelguard"
 )
 
 // kvs is the exact label payload used in both runs, so the only

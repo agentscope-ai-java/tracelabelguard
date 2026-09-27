@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/__GH_OWNER__/tracelabelguard"
+	"github.com/agentscope-ai-java/tracelabelguard"
 )
 
 func main() {

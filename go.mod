@@ -1,3 +1,3 @@
-module github.com/__GH_OWNER__/tracelabelguard
+module github.com/agentscope-ai-java/tracelabelguard
 
 go 1.27.1

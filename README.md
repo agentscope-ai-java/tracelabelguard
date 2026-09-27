@@ -62,7 +62,7 @@ someone forgets.
 ## Install
 
 ```sh
-go get github.com/__GH_OWNER__/tracelabelguard
+go get github.com/agentscope-ai-java/tracelabelguard
 ```
 
 Go 1.21+ (this module's own `go.mod` targets 1.27.1, since that's the version the
@@ -74,7 +74,7 @@ Standard library only — no runtime dependencies.
 ```go
 import (
 	"context"
-	"github.com/__GH_OWNER__/tracelabelguard"
+	"github.com/agentscope-ai-java/tracelabelguard"
 )
 
 func handle(ctx context.Context, sessionToken, userEmail, requestID string) {
@@ -132,7 +132,7 @@ whatever reached `pprof.Labels` unredacted would panic there anyway.
 ## Use: the scanner and CLI
 
 ```sh
-go install github.com/__GH_OWNER__/tracelabelguard/cmd/tracelabelguard@latest
+go install github.com/agentscope-ai-java/tracelabelguard/cmd/tracelabelguard@latest
 tracelabelguard --dir ./myservice
 ```
 
